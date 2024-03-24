@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 16:27:01 by laurvare          #+#    #+#             */
-/*   Updated: 2024/03/24 17:42:18 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/03/24 18:44:45 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,12 +29,12 @@ void	*ft_bzero(void *s, size_t n)
 
 // int	main(void)
 // {
-// 	char	str[50];
+// 	char	str[15];
 
 // 	strcpy(str, "comprobando");
 // 	printf("Contenido antes de la función:\n");
 // 	printf("%s\n", str);
-// 	ft_bzero(str, 50);
+// 	ft_bzero(str, 15);
 // 	printf("Contenido tras la función:\n");
 // 	printf("%s\n", str);
 // 	return (0);

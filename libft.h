@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 16:47:46 by laurvare          #+#    #+#             */
-/*   Updated: 2024/03/22 17:31:08 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/03/24 18:34:32 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,6 @@ int		ft_isprint(int c);
 void	*ft_memcpy(void *dest, const void *src, size_t n);
 void	*ft_memset(void *b, int c, size_t len);
 size_t	ft_strlen(const char *str);
+void	*ft_bzero(void *s, size_t n);
+void	*ft_memmove(void *dst, const void *src, size_t len);
 #endif
