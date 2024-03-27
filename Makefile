@@ -12,6 +12,7 @@ SRC = ft_isalpha.c \
 		ft_memcpy.c \
 		ft_bzero.c \
 		ft_memmove.c \
+		ft_strlcpy.c \
 
 OBJ = $(SRC:.c=.o)
 

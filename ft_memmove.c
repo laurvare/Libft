@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 18:32:23 by laurvare          #+#    #+#             */
-/*   Updated: 2024/03/26 17:03:22 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/03/27 15:06:31 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,12 +46,12 @@ void	copy(char *p_dest, char *p_orig, size_t len)
 		}
 	}
 }
-int main (void)
-{
-	char p_orig[] = "bbbbbb";
-	char p_desti[] = "aaaaaaaa";
-	printf ("El destino es:%s\n",p_desti);
-	ft_memmove(p_orig, p_desti, 6);
-	printf ("El destino ahora es:%s\n",p_orig);
-	return (0);
-}
+// int main (void)
+// {
+// 	char p_orig[] = "bbbbbb";
+// 	char p_desti[] = "aaaaaaaa";
+// 	printf ("El destino es:%s\n",p_desti);
+// 	ft_memmove(p_orig, p_desti, 6);
+// 	printf ("El destino ahora es:%s\n",p_orig);
+// // 	return (0);
+// }
