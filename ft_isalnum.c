@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 14:41:15 by laurvare          #+#    #+#             */
-/*   Updated: 2024/03/23 16:47:38 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/04/15 19:18:14 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,21 +21,3 @@ int	ft_isalnum(int c)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	int	result;
-// 	int	c;
-
-// 	c = 'y';
-// 	result = ft_isalnum(c);
-// 	if (ft_isalnum(c) == 1)
-// 	{
-// 		printf ("%d Es un valor alfanumérico", c);
-// 	}
-// 	else
-// 	{
-// 		printf ("%d No es un alfanumérico", c);
-// 	}
-// 	return (0);
-// }

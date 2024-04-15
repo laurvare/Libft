@@ -18,16 +18,17 @@ SRC = ft_isalpha.c \
 		ft_tolower.c \
 		ft_strchr.c \
 		ft_strrchr.c \
+		ft_strncmp.c \
 
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
 
-$(NAME) : $(OBJ)
-	@ar -crs $@ $?
+$(NAME) : $(OBJ) 
+	ar -crs  $@ $?
 	
 %.o : %.c
-	@$(CC) -c $(CFLAGS) $?
+	$(CC) -c $(CFLAGS) $?
 
 clean:
 	rm -f $(OBJ)

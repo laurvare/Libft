@@ -6,16 +6,11 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/25 10:32:31 by laurvare          #+#    #+#             */
-/*   Updated: 2024/03/22 17:28:47 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/04/15 19:41:13 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <ctype.h>
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
-#include <unistd.h>
 
 size_t	ft_strlen(const char *str)
 {
@@ -27,12 +22,6 @@ size_t	ft_strlen(const char *str)
 	return (i);
 }
 
-// int	main(void)
-// {
-// 	char	*str;
 
-// 	str = "Amelia";
-// 	printf("%lu \n", ft_strlen(str));
-// 	printf("%lu \n", strlen(str));
-// 	return (0);
-// }
+
+

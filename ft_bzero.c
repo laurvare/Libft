@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 16:27:01 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/06 17:13:11 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/04/15 18:54:05 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,16 +26,3 @@ void	*ft_bzero(void *s, size_t n)
 	}
 	return (destiny);
 }
-
-// int	main(void)
-// {
-// 	char	str[15];
-
-// 	strcpy(str, "comprobando");
-// 	printf("Contenido antes de la función:\n");
-// 	printf("%s\n", str);
-// 	ft_bzero(str, 15);
-// 	printf("Contenido tras la función:\n");
-// 	printf("%s\n", str);
-// 	return (0);
-// }

@@ -6,13 +6,11 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 14:53:20 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/04 20:04:37 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/04/15 19:33:10 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <string.h>
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
@@ -35,21 +33,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dst_len + i] = '\0';
 	return (src_len + dst_len);
 }
-// int main() 
-// {
-//     char dst1[20] = "pqrstuvwxyz";
-//     char dst2[20] = "pqrstuvwxyz";
-//     char src[5] = "abcd";
-//     size_t dstsize1 = 11;
-//     size_t dstsize2 = 11;
-
-//     size_t total_length1 = ft_strlcat(dst1, src, dstsize1);
-//     size_t total_length2 = strlcat(dst2, src, dstsize2);
-
-//     printf("Propia: Cadena concatenada: %s\n", dst1);
-//     printf("ORIG: Cadena concatenada: %s\n", dst2);
-//     printf("Propia: Longitud total: %zu\n", total_length1);
-//     printf("ORIG: Longitud total: %zu\n", total_length2);
-
-//     return 0;
-// }
