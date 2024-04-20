@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/25 10:32:31 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:41:13 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/04/20 14:43:40 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-
-
-
-

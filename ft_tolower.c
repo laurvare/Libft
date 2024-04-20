@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 17:14:01 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:43:16 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/04/20 14:44:06 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,5 +18,3 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
-
-

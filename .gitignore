@@ -3,3 +3,4 @@ main.c
 .DS_Store
 a.out
 .vscode
+libft.a
