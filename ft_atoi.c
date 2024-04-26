@@ -6,13 +6,11 @@
 /*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 16:09:02 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/26 18:56:46 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/04/26 19:50:59 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 int	ft_atoi(const char *str)
 {
@@ -39,11 +37,3 @@ int	ft_atoi(const char *str)
 	}
 	return (nbr_return * is_negative);
 }
-
-// int main(void)
-// {
-// 	char str[] = "abc8";
-// 	printf ("el entero es: %d\n", atoi(str));
-// 	printf ("el entero falso es: %d\n", ft_atoi(str));
-// 	return (0);
-// }
