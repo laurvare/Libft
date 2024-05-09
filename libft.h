@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 16:47:46 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/08 21:09:39 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/09 18:45:45 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,4 +42,5 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len);
 int		ft_atoi(const char *str);
 void    ft_putchar_fd(char c, int fd);
 void    ft_putstr_fd(char *s, int fd);
+void    ft_putendl_fd(char *s, int fd);
 #endif 

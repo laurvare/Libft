@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   paolotestpunter.c                                  :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/24 15:28:42 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/24 17:17:27 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/09 18:47:01 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int sumar_numeros(int num1, int num2)
 {
 	return (num1 + num2);
 }
-int main(void)
+/* int main(void)
 {
 	int num1;
 	int num2;
@@ -36,7 +36,7 @@ int main(void)
 	return(0);
 }
 
-
+ */
 
 
 
