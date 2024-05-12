@@ -1,32 +1,45 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*   ft_calloc.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/14 18:36:49 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/12 21:09:30 by laurvare         ###   ########.fr       */
+/*   Created: 2024/05/12 15:04:38 by laurvare          #+#    #+#             */
+/*   Updated: 2024/05/12 19:39:27 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+# include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+void	*ft_calloc(size_t nmemb,size_t size)
 {
-	unsigned char			*p_dest;
-	const unsigned char		*p_src;
-	size_t					i;
+	char *str;
+	size_t i;
+	size_t total;
 
-	if (!dest && !src)
-		return (NULL);
-	p_dest = (unsigned char *)dest;
-	p_src = (const unsigned char *)src;
-	i = 0;
-	while (i < n)
+	total = (nmemb*size);
+	str = malloc(total);
+	if (str == NULL)
+		return(NULL);
+	i= 0;
+	while (i<total)
 	{
-		p_dest[i] = p_src[i];
+		str[i] = '\0';
 		i++;
 	}
-	return (dest);
+	return(str);
 }
+/*
+int	main(void)
+{	
+	char *str = calloc(2147483649, 1);
+	printf("%p\n", str);
+	free(str);
+
+	char *str2 = ft_calloc(5, 1);
+	printf("%s\n", str2);
+	free(str2);
+	return(0);
+}
+*/
