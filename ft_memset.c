@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memset.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 12:24:37 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/12 16:49:15 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/15 20:08:03 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-
+/*
 int	main(void)
 {
 	char	str[50];
@@ -40,3 +40,4 @@ int	main(void)
 	printf("%s\n", str);
 	return (0);
 }
+*/

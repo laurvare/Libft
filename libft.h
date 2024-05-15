@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 16:47:46 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/12 21:34:29 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/15 19:53:25 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,5 @@ void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	*ft_calloc(size_t nmemb,size_t size);
 char	*ft_strdup(const char *s);
+char	*ft_substr(char const *s, unsigned int start, size_t len);
 #endif 
