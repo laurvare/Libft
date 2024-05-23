@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 14:11:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:19:15 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/23 20:30:45 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,15 @@ int	ft_isalpha(int c)
 	}
 	return (0);
 }
+
+// int	main(void)
+// {
+// 	int	c;
+
+// 	c = 'g';
+// 	if (ft_isalpha(c))
+// 		printf("The character value is: %c\n", c);
+// 	else
+// 		printf("The character is not alphabetical.\n");
+// 	return (0);
+// }

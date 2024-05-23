@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 11:52:41 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:22:52 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/23 20:31:44 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,15 @@ int	ft_isdigit(int c)
 	}
 	return (0);
 }
+
+// int	main(void)
+// {
+// 	int	c;
+
+// 	c = 45;
+// 	if (ft_isdigit(c))
+// 		printf ("%d it is a decimal digit", c);
+// 	else
+// 		printf ("%d is not a decimal digit", c);
+// 	return (0);
+// }

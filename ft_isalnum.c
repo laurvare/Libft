@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isalnum.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 14:41:15 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:18:14 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/23 20:29:35 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,17 @@ int	ft_isalnum(int c)
 	}
 	return (0);
 }
+
+// int	main(void)
+// {
+// 	int	result;
+// 	int	c;
+
+// 	c = 'y';
+// 	result = ft_isalnum(c);
+// 	if (ft_isalnum(c) == 1)
+// 		printf ("%d It is an alphanumeric value", c);
+// 	else
+// 		printf ("%d No it is an alphanumeric value", c);
+// 	return (0);
+// }

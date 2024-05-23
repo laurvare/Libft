@@ -6,19 +6,16 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 14:04:56 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 17:34:41 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/23 20:08:39 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 char *ft_strjoin(char const *s1, char const *s2)
 {
 size_t i;
 size_t j;
-/*size_t k;*/
 size_t total_len;
 char *strconcat;
 
@@ -44,11 +41,11 @@ printf ("%ld\n", i);
 return (strconcat);
 }
 
-/*int main(void) 
-{
-    char str1[] = "Pienso como";
-    char str2[] = " una rana";
+// int main(void) 
+// {
+//     char str1[] = "Pienso como";
+//     char str2[] = " una rana";
 
-    printf("%s\n", ft_strjoin(str1, str2));
-    return (0);
-}*/
+//     printf("%s\n", ft_strjoin(str1, str2));
+//     return (0);
+// }

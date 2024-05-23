@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 18:52:22 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:22:11 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/23 20:25:16 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,15 @@ int	ft_isascii(int c)
 	}
 	return (0);
 }
+
+// int	main(void)
+// {
+// 	int	a;
+
+// 	a = 'o';
+// 	if (ft_isascii(a))
+// 		printf ("%c is ASCII \n", a);
+// 	else
+// 		printf ("%c No ASCII \n", a);
+// 	return (0);
+// }

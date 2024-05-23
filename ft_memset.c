@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 12:24:37 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/15 20:08:03 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/23 20:41:18 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,17 +27,16 @@ void	*ft_memset(void *b, int c, size_t len)
 	}
 	return (b);
 }
-/*
+
 int	main(void)
 {
 	char	str[50];
 
-	strcpy(str, "Esto es una prueba personal");
-	printf("Contenido original:\n");
+	strcpy(str, "Personal test");
+	printf("Original content:\n");
 	printf("%s\n", str);
 	ft_memset(str, '$', 10);
-	printf("Contenido modificado:\n");
+	printf("Modified content:\n");
 	printf("%s\n", str);
 	return (0);
 }
-*/
