@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_atoi.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 16:09:02 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/26 19:50:59 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 14:52:45 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,3 +37,11 @@ int	ft_atoi(const char *str)
 	}
 	return (nbr_return * is_negative);
 }
+
+// int	main(void)
+// {
+// 	char	str[] = "abc8";
+// 	printf ("el entero es: %d\n", atoi(str));
+// 	printf ("el entero falso es: %d\n", ft_atoi(str));
+// 	return (0);
+// }

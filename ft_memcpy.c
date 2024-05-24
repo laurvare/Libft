@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 18:36:49 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:44:03 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 17:23:40 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,15 +31,15 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
-int	main(void)
-{
-	char	dest[8];
-	char	src[8];
+// int	main(void)
+// {
+// 	char	dest[8];
+// 	char	src[8];
 
-	strcpy(dest, "Mara");
-	strcpy(src, "Amelia");
-	printf("Previous destination: %s\n", dest);
-	ft_memcpy(dest, src, sizeof(src));
-	printf("dest after memcpy: %s\n", src);
-	return (0);
-}
+// 	strcpy(dest, "Mara");
+// 	strcpy(src, "Amelia");
+// 	printf("Previous destination: %s\n", dest);
+// 	ft_memcpy(dest, src, sizeof(src));
+// 	printf("dest after memcpy: %s\n", src);
+// 	return (0);
+// }

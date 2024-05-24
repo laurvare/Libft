@@ -6,14 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/09 15:25:58 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:09:03 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 17:27:39 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <fcntl.h>
-#include <unistd.h>
-#include <stdio.h>
 
 void	ft_putendl_fd(char *s, int fd)
 {

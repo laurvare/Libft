@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 16:27:01 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:51:11 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 15:01:00 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,23 +22,23 @@ void	*ft_bzero(void *s, size_t n)
 	i = 0;
 	while (i < n)
 	{
-		printf("\n\nRONDA DE ANUMLACION BYTE\n\n");
+		printf("\n\nByte cancellation round\n\n");
 		destiny[i] = '\0';
-		printf("valor caracter anulado siguente de destiny: '%c' -> '%c'\n", destiny[i], destiny[i + 1]);
+		printf("nullified character:'%c'->'%c'\n", destiny[i], destiny[i + 1]);
 		i++;
 	}
 	return (destiny);
 }
 
-int	main(void)
-{
-	size_t	n = 5;
-	char	s[] = "viva la vida";
+// int	main(void)
+// {
+// 	size_t	n = 5;
+// 	char	s[] = "viva la vida";
 	
-	ft_bzero(s, n);
-	printf("valorde s: %s\n", s);
-	return (0);
-}
+// 	ft_bzero(s, n);
+// 	printf("valorde s: %s\n", s);
+// 	return (0);
+// }
 
 // int	main(void)
 // {

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 11:20:06 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/20 15:09:54 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 15:21:14 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,3 +26,12 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+// int	main(void)
+// {
+// 	char	s[7] = "hola";
+// 	int		c;
+// 	printf("%s\n", memchr("hola", 0, 5));
+// 	printf("%s\n", ft_memchr("hola", 0, 5));
+// 	return (0);
+// }

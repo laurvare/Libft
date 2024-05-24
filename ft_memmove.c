@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memmove.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 18:32:23 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:28:02 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 17:26:12 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,3 +46,15 @@ void	copy(char *p_dest, char *p_orig, size_t len)
 		}
 	}
 }
+
+// int main() 
+// {
+//     char dest[] = "Azuqueca";
+//     char str[] = "Guadalajara";
+
+//     printf("str1 pre de memmove: %s\n", dest);
+//     ft_memmove(dest, str, sizeof(dest));
+//     printf("str1 post de memmove: %s\n", dest);
+
+//     return 0;
+// }
