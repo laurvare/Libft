@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/09 15:25:58 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/24 17:27:39 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 19:22:03 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int main(void)
     size_t len;
 
     char s[]= "Esto es una cadena";
-    fd = open("caso.txt", O_RDWR);
+    fd = open("prueba.txt", O_RDWR);
     ft_putendl_fd(s, fd);
     close(fd);
     return(0);

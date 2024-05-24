@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/08 19:09:29 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/12 19:18:33 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/24 19:21:55 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ void	ft_putstr_fd(char *s, int fd)
 //     size_t len;
 
 //     char s[]= "Esto es una cadena";
-//     fd = open("caso.txt", O_RDWR);
+//     fd = open("prueba.txt", O_RDWR);
 //     ft_putstr_fd(s, fd);
 //     close(fd);
 //     return(0);
