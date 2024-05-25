@@ -14,20 +14,7 @@
 
 void	*ft_bzero(void *s, size_t n)
 {
-	unsigned char	*destiny;
-	size_t			i;
-
-	destiny = (unsigned char *)s;
-	printf("destiny value from bzero: %s\n", destiny);
-	i = 0;
-	while (i < n)
-	{
-		printf("\n\nByte cancellation round\n\n");
-		destiny[i] = '\0';
-		printf("nullified character:'%c'->'%c'\n", destiny[i], destiny[i + 1]);
-		i++;
-	}
-	return (destiny);
+    ft_memset(s,0,n);
 }
 
 // int	main(void)
