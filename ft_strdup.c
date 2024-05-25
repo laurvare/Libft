@@ -1,5 +1,5 @@
 /* ************************************************************************** */
-/*                                                                            */
+/*	                                                                        */
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
@@ -14,35 +14,35 @@
 
 char	*ft_strdup(const char *s)
 {
-    char *oil;
-    size_t t;
-    size_t i;
+	char *oil;
+	size_t t;
+	size_t i;
 
-    i = 0;
-    t = ft_strlen(s);
-    oil = malloc(t + 1);
-    if (oil ==  NULL)
-        return (NULL);
+	i = 0;
+	t = ft_strlen(s);
+	oil = malloc(t + 1);
+	if (oil ==  NULL)
+		return (NULL);
 
-    while (i < t+1)
-    {
-        oil[i] = s[i];
-        i++;
-    }
-    
-    return(oil);
+	while (i < t+1)
+	{
+		oil[i] = s[i];
+		i++;
+	}
+	
+	return(oil);
 }
 
 // int main(void)
 // {
-//     char *str;
-//     str = "mago";
-//     char *m;
+//	 char *str;
+//	 str = "mago";
+//	 char *m;
 
-//     printf ("str Original: %s\n", str);
-//     m = ft_strdup(str);
-//     printf ("str Duplicada: %s\n", m);
-//     free(m);
-//     return(0);
+//	 printf ("str Original: %s\n", str);
+//	 m = ft_strdup(str);
+//	 printf ("str Duplicada: %s\n", m);
+//	 free(m);
+//	 return(0);
 // }
 	

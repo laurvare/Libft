@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/22 16:47:46 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 16:18:00 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/25 15:51:44 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,4 +48,5 @@ void	*ft_calloc(size_t nmemb,size_t size);
 char	*ft_strdup(const char *s);
 char	*ft_substr(char const *s, unsigned int start, size_t len);
 char    *ft_strjoin(char const *s1, char const *s2);
+void	ft_putnbr_fd(int n, int fd);
 #endif 
