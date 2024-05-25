@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
+/*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 18:19:31 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/25 17:01:23 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/05/25 21:27:31 by laura            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-int findchar (char *str, char c)
+static int findchar (const char *str, char c)
 {
 	int i;
 
@@ -24,6 +24,7 @@ int findchar (char *str, char c)
 	}
 	return (0);
 }
+
 char *ft_strtrim(char const *s1, char const *set)
 {
 	int i;
@@ -49,12 +50,12 @@ char *ft_strtrim(char const *s1, char const *set)
 	return NULL;
 	
 }
-int main (void)
-{
-	char str1 [] = "aaabbbIdfIbbbaaa";
-	char str2 [] = "aeb";
+// int main (void)
+// {
+// 	char str1 [] = "aaabbbIdfIbbbaaa";
+// 	char str2 [] = "aeb";
 
-ft_strtrim (str1, str2);
-  //  printf ("%s\n", ft_strtrim (str1, str2));
-	return (0);
-}
+// ft_strtrim (str1, str2);
+//   //  printf ("%s\n", ft_strtrim (str1, str2));
+// 	return (0);
+// }
