@@ -10,27 +10,25 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-# include "libft.h"
+#include "libft.h"
 
 char	*ft_strdup(const char *s)
 {
-	char *oil;
-	size_t t;
-	size_t i;
+	char	*oil;
+	size_t	t;
+	size_t	i;
 
 	i = 0;
 	t = ft_strlen(s);
 	oil = malloc(t + 1);
-	if (oil ==  NULL)
+	if (oil == NULL)
 		return (NULL);
-
-	while (i < t+1)
+	while (i < t + 1)
 	{
 		oil[i] = s[i];
 		i++;
 	}
-	
-	return(oil);
+	return (oil);
 }
 
 // int main(void)
@@ -45,4 +43,3 @@ char	*ft_strdup(const char *s)
 //	 free(m);
 //	 return(0);
 // }
-	

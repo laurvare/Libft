@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 15:41:39 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/25 22:05:47 by laura            ###   ########.fr       */
+/*   Updated: 2024/05/26 17:03:16 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,6 @@ void	ft_putnbr_fd(int n, int fd)
 // int	main(void)
 // {
 // 	int	fd;
-	
 // 	fd = open("prueba.txt", O_RDWR);
 // 	ft_putnbr_fd(5, 1);
 // 	//printf("\nel valor de fd es: %d\n", fd);

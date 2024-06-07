@@ -3,59 +3,40 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 18:19:31 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/25 21:27:31 by laura            ###   ########.fr       */
+/*   Updated: 2024/06/06 18:08:19 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-static int findchar (const char *str, char c)
-{
-	int i;
 
-	i = 0;
-	while (str[i] != '\0')
-	{
-		if (str[i] == c)
-			return (1);
-		i++;
-	}
-	return (0);
+char	*ft_strtrim(char const *s1, char const *set)
+{
+	int		start;
+	int		end;
+	char	*str;
+
+	start = 0;
+	end = ft_strlen(s1);
+	if (s1 == NULL || set == NULL)
+		return (NULL);
+	while (s1[start] && ft_strchr(set, s1[start]))
+		start++;
+	while (s1[end - 1] && ft_strchr(set, s1[end - 1]))
+		end--;
+	str = ft_substr (s1, start, (end - start));
+	return (str);
 }
 
-char *ft_strtrim(char const *s1, char const *set)
-{
-	int i;
-
-	i = 0;
-	while (findchar(set, s1[i]))
-	{
-	printf("Caracter:%c\ni:%d--\nfindchar:%d\n--------------\n",s1[i], i, findchar(set, s1[i]));
-		i++;
-	}
-	printf("Caracter:%c\ni:%d--\nfindchar:%d\n--------------\n",s1[i], i, findchar(set, s1[i]));
-
-	int j;
-
-	j = strlen(s1);
-	while (findchar(set, s1[j-1]))
-		{
-			printf("Caracter:%c\nj:%d--\nfindchar:%d\n--------------\n",s1[j], j, findchar(set, s1[j]));
-			j--;
-		}
-	printf("Caracter:%c\nj:%d--\nfindchar:%d\n--------------\n",s1[j], j, findchar(set, s1[j]));
-
-	return NULL;
-	
-}
-// int main (void)
+// int	main(void)
 // {
-// 	char str1 [] = "aaabbbIdfIbbbaaa";
-// 	char str2 [] = "aeb";
-
-// ft_strtrim (str1, str2);
-//   //  printf ("%s\n", ft_strtrim (str1, str2));
+// 	char	str1 [] = "aaaaaeeeeiiiioooouuu";
+// 	char	str2 [] = "aeu";
+// 	char	*result = ft_strtrim (str1, str2);
+// 	printf ("%s\n", result);
+// 	free(result);
+// 	result = NULL;
 // 	return (0);
 // }

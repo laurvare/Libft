@@ -6,14 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/08 19:09:29 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/25 16:59:41 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/06 18:10:30 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <fcntl.h>
-#include <unistd.h>
-#include <stdio.h>
 
 void	ft_putstr_fd(char *s, int fd)
 {
