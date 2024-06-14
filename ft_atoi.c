@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 16:09:02 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/24 14:52:45 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/07 19:44:16 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,8 +40,8 @@ int	ft_atoi(const char *str)
 
 // int	main(void)
 // {
-// 	char	str[] = "abc8";
-// 	printf ("el entero es: %d\n", atoi(str));
-// 	printf ("el entero falso es: %d\n", ft_atoi(str));
+// 	char	str[] = "48";
+// 	printf ("original function: %d\n", atoi(str));
+// 	printf ("own function: %d\n", ft_atoi(str));
 // 	return (0);
 // }

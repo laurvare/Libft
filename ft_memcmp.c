@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/20 16:48:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/24 15:21:26 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/07 20:07:27 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 
 // 	diferen = memcmp (s1, s2, 10);
 // 	printf ("%d\n", diferen);
-// 	diferen = ft_memcmp (s3, s4, 10);
+// 	diferen =  (s3, s4, 10);
 // 	printf ("%d\n", diferen);
 // 	return (0);
 // }
