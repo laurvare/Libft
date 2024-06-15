@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 18:19:31 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/06 18:08:19 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 18:05:50 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,13 +30,13 @@ char	*ft_strtrim(char const *s1, char const *set)
 	return (str);
 }
 
-// int	main(void)
-// {
-// 	char	str1 [] = "aaaaaeeeeiiiioooouuu";
-// 	char	str2 [] = "aeu";
-// 	char	*result = ft_strtrim (str1, str2);
-// 	printf ("%s\n", result);
-// 	free(result);
-// 	result = NULL;
-// 	return (0);
-// }
+int	main(void)
+{
+	char	str1 [] = "aaaaaeeeeiiiioooouuu";
+	char	str2 [] = "aeu";
+	char	*result = ft_strtrim (str1, str2);
+	printf ("%s\n", result);
+	free(result);
+	result = NULL;
+	return (0);
+}

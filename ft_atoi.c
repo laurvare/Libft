@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 16:09:02 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/07 19:44:16 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 11:29:36 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Converts a string of characters to an integer."123" number 123//
 #include "libft.h"
 
 int	ft_atoi(const char *str)

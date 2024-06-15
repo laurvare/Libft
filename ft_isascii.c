@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 18:52:22 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:25:16 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 17:41:14 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Determines if a character is an ASCII character
 #include "libft.h"
 
 int	ft_isascii(int c)

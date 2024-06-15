@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 18:36:49 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/24 17:23:40 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 17:55:37 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Copy a block of memory from one place to another
 #include "libft.h"
 
 void	*ft_memcpy(void *dest, const void *src, size_t n)

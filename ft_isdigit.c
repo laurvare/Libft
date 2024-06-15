@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 11:52:41 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:31:44 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 17:42:37 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Checks if a character is a digit in the base 10
 #include "libft.h"
 
 int	ft_isdigit(int c)

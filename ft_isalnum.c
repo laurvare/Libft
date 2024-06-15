@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 14:41:15 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:29:35 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 17:38:26 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Checks if a character is alphanumeric (letter or digit)//
 #include "libft.h"
 
 int	ft_isalnum(int c)

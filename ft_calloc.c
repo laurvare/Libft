@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/12 15:04:38 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/14 21:16:14 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 17:38:13 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Reserve memory: reserve enough memory for size * count
 #include "libft.h"
 
 void	*ft_calloc(size_t nmemb, size_t size)

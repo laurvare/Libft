@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 16:27:01 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/26 17:31:18 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 12:05:39 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+// Initialize a block of memory by setting all bytes to zero
 #include "libft.h"
 
 void	ft_bzero(void *s, size_t n)

@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/12 14:11:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:30:45 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 17:40:29 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//This function checks if a character is a letter
 #include "libft.h"
 
 int	ft_isalpha(int c)

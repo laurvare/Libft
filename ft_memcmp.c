@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/20 16:48:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/07 20:07:27 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 17:53:43 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Compares two blocks of memory byte by byte.
 #include "libft.h"
 
 int	ft_memcmp(const void *s1, const void *s2, size_t n)
