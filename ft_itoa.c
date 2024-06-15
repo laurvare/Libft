@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
+/*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 19:45:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 10:44:33 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 10:56:46 by laura            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ char	*ft_itoa(int n)
 	original = n;
 	count = ft_counter_digits(n);
 	str = malloc(count + 1);
+	if (str == NULL)
+		return (NULL);
 	str[count] = '\0';
 	count--;
 	while (count >= 0)
@@ -52,9 +54,6 @@ char	*ft_itoa(int n)
 	}
 	if (original < 0)
 		str[0] = '-';
-	return (str);
-}
-
 // int	main(void)
 // {
 // 	int n;
@@ -63,3 +62,15 @@ char	*ft_itoa(int n)
 // 	printf("%s\n", ft_itoa(n));
 // 	return(0);
 // }
+
+	return (str);
+}
+
+int	main(void)
+{
+	int n;
+
+	n = -2147483648;
+	printf("%s\n", ft_itoa(n));
+	return(0);
+}
