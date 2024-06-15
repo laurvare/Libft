@@ -6,7 +6,7 @@
 /*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 19:45:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 10:56:46 by laura            ###   ########.fr       */
+/*   Updated: 2024/06/15 11:02:35 by laura            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,11 +66,11 @@ char	*ft_itoa(int n)
 	return (str);
 }
 
-int	main(void)
-{
-	int n;
+// int	main(void)
+// {
+// 	int n;
 
-	n = -2147483648;
-	printf("%s\n", ft_itoa(n));
-	return(0);
-}
+// 	n = -2147483648;
+// 	printf("%s\n", ft_itoa(n));
+// 	return(0);
+// }
