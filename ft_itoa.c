@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 19:45:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 11:02:35 by laura            ###   ########.fr       */
+/*   Updated: 2024/06/15 11:05:36 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -54,15 +54,6 @@ char	*ft_itoa(int n)
 	}
 	if (original < 0)
 		str[0] = '-';
-// int	main(void)
-// {
-// 	int n;
-
-// 	n = 2147483647;
-// 	printf("%s\n", ft_itoa(n));
-// 	return(0);
-// }
-
 	return (str);
 }
 
@@ -70,7 +61,7 @@ char	*ft_itoa(int n)
 // {
 // 	int n;
 
-// 	n = -2147483648;
+// 	n = 2147483647;
 // 	printf("%s\n", ft_itoa(n));
 // 	return(0);
 // }

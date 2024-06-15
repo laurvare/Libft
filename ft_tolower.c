@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 17:14:01 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/20 14:44:06 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 11:25:02 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,15 @@ int	ft_tolower(int c)
 		c = c + 32;
 	return (c);
 }
+
+// int	main(void)
+// {
+// 	int	c;
+// 	int	result;
+
+// 	c = 'T';
+// 	printf("Palabra original: %c\n", c);
+// 	result = ft_tolower(c);
+// 	printf("Lo convierte a:  %c\n", result);
+// 	return (0);
+// }

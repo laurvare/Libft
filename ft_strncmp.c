@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 18:43:06 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/20 18:24:47 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 11:21:53 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,3 +25,21 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
+
+// int	main(void)
+// {
+// 	char	str1[] = "azuqueca de h";
+// 	char	str2[] = "azuquecA de holaa";
+// 	int		diferen;
+
+// 	//diferen = strncmp(str1, str2, 21);
+// 	diferen = ft_strncmp(str1, str2, 8);
+// 	printf("%d\n", diferen);
+// 	if (diferen == 0)
+// 		printf("son iguales");
+// 	else if (diferen < 0)
+// 		printf("El valor ASCII cadena 1 es menor");
+// 	else
+// 		printf("El valor ASCII cadena 1 es mayor");
+// 	return (0);
+// }

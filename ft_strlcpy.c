@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:22:51 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/15 19:37:39 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 11:25:19 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,15 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 		dst[i] = '\0';
 	return (largoorigen);
 }
+
+// int	main(void)
+// {
+// 	char	p_orig[]= "1111111111";
+// 	char	p_desti[]= "2222222222";
+// 	size_t	ptr;
+
+// 	printf("Destino es: %s\n", p_desti);
+// 	ptr = ft_strlcpy(p_desti, p_orig, 6);
+// 	printf("Destino es: %s, %zu\n", p_desti, ptr);
+// 	return (0);
+// }
