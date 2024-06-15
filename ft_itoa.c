@@ -6,12 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 19:45:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/14 20:12:54 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/15 10:44:33 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
-#include <stdio.h>
+#include "libft.h"
 
 int	ft_counter_digits(int n)
 {
