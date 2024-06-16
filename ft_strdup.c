@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//Duplicates a string
+//Dynamically allocating memory for the new string and returning a pointer to it
 #include "libft.h"
 
 char	*ft_strdup(const char *s)

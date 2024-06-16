@@ -6,10 +6,12 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 19:02:42 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 11:15:25 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:17:54 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Finds the last occurrence of a character in a string
+// Returns a pointer to that position
 #include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)

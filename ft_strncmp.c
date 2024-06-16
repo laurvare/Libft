@@ -6,10 +6,12 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/11 18:43:06 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 11:21:53 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:26:35 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Compares up to the first n characters of two strings, returning an integer 
+//Indicating equal, less than or greater, without being sensitive to location
 #include "libft.h"
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)

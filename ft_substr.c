@@ -6,10 +6,12 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/15 17:36:22 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/26 16:34:48 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:21:02 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Extracts a substring from a string
+//Starting at any position and specifying the length of the substring
 #include "libft.h"
 
 char	*ft_substr(char const *s, unsigned int start, size_t len)

@@ -3,13 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laurvare <laurvare@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/21 17:45:57 by laurvare          #+#    #+#             */
-/*   Updated: 2024/04/24 22:20:21 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:24:06 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//searches for the first occurrence of a substring within a string
+//limiting the search to a maximum number of characters
 #include "libft.h"
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)

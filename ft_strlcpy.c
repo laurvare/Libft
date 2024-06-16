@@ -6,10 +6,12 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:22:51 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 11:25:19 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:36:07 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Copy a source string to a destination string
+//Ensuring that the destination string does not overflow
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)

@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/08 19:09:29 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/06 18:10:30 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 17:15:00 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,10 @@ void	ft_putstr_fd(char *s, int fd)
 {
 	write(fd, s, ft_strlen(s));
 }
+//#include <unistd.h>
+//#include <stdio.h>
+//#include <fcntl.h>
+
 // int	main(void)
 // {
 //	 int fd;

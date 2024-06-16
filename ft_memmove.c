@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/24 18:32:23 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/30 11:09:28 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 15:50:46 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Copy data between blocks of memory that may overlap
 #include "libft.h"
 
 void	copy(char *p_dest, char *p_orig, size_t len);

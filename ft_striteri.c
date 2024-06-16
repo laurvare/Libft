@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_striteri.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 18:19:45 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/07 16:41:44 by laura            ###   ########.fr       */
+/*   Updated: 2024/06/16 16:43:02 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Applies a custom function to each character in a string modify original string
 #include "libft.h"
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))

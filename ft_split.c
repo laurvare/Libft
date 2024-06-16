@@ -6,10 +6,12 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/24 18:05:13 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/30 15:16:32 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:49:08 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Splits a string into substrings based on a delimiter 
+//Returns pointers to the resulting substrings
 #include "libft.h"
 
 static size_t	ft_len_word(const char *s, char c)

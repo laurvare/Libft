@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/06 17:14:01 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 11:25:02 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:09:01 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Converts text to lowercase. If it's not a letter, it doesn't do anything.
 #include "libft.h"
 
 int	ft_tolower(int c)

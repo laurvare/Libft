@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 14:53:20 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 11:14:39 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:38:14 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Concatenate one string to another
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
@@ -33,6 +34,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)
 	dst[dst_len + i] = '\0';
 	return (src_len + dst_len);
 }
+
 // int	main() 
 // {
 // 	char dst1[20] = "pqrstuvwxyz";

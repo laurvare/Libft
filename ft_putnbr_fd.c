@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/10 15:41:39 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/26 17:03:16 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 17:14:27 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//
 #include "libft.h"
 
 static int	ft_cont(int n)
@@ -54,6 +55,10 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	write (fd, str, aux);
 }
+
+//#include <unistd.h>
+//#include <stdio.h>
+//#include <fcntl.h>
 
 // int	main(void)
 // {

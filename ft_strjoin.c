@@ -6,10 +6,12 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/23 14:04:56 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/30 15:46:30 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:40:20 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Concatenate two strings and return a new string
+//That memory space will be reserved with malloc.
 #include "libft.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)

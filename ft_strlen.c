@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/25 10:32:31 by laurvare          #+#    #+#             */
-/*   Updated: 2024/05/23 20:35:47 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:33:15 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Calculates the length of a string, excluding the terminating null character
 #include "libft.h"
 
 size_t	ft_strlen(const char *str)

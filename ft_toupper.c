@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/05 11:16:47 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/06 16:24:22 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 16:08:13 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+//Convert to uppercase. If it's not a letter, it doesn't do anything.
 #include "libft.h"
 
 int	ft_toupper(int c)
