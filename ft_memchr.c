@@ -6,10 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 11:20:06 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 17:50:49 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/16 18:16:14 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 //Find 1 time a specific byte appears in a block of memory, return pointer
 void	*ft_memchr(const void *s, int c, size_t n)
 {
