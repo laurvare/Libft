@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/26 16:09:02 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 18:49:23 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/21 11:05:56 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,10 +39,10 @@ int	ft_atoi(const char *str)
 	return (nbr_return * is_negative);
 }
 
-int	main(void)
- {
-	char	str[] = "48";
-	printf ("original function: %d\n", atoi(str));
-	printf ("own function: %d\n", ft_atoi(str));
-	return (0);
- }
+// int	main(void)
+//  {
+// 	char	str[] = "48";
+// 	printf ("original function: %d\n", atoi(str));
+// 	printf ("own function: %d\n", ft_atoi(str));
+// 	return (0);
+//  }

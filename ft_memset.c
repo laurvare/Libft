@@ -6,11 +6,11 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/14 12:24:37 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 15:56:00 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/06/21 11:08:14 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//fills a block of memory with a specific value, 
+//Fills a block of memory with a specific value, 
 //converting that value to an unsigned character before
 #include "libft.h"
 
