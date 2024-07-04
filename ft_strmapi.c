@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 19:28:00 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 16:30:36 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 21:00:05 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,12 +36,12 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
 // static char	ft_upper_char(unsigned int index, char c)
 // {
-// 	int	cc;
+// 	int	new_char;
 
 // 	printf ("[%d] = %c \n", index, c);
-// 	cc = c - 32;
-// 	printf ("[%d] = %c \n", index, cc);
-// 	return (cc);
+// 	new_char = c - 32;
+// 	printf ("[%d] = %c \n", index, new_char);
+// 	return (new_char);
 // }
 
 // int	main(void)
@@ -49,7 +49,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 // 	char	*str1 = "ibiza";
 // 	char	*s2 = ft_strmapi (str1, ft_upper_char);
 
-// 	printf("str1: %s   s2: %s", str1, s2);
+// 	printf("BEFORE: %s | AFTER: %s", str1, s2);
 // 	free(s2);
 // 	return (0);
 // }

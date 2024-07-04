@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 15:22:51 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 16:36:07 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 20:56:20 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,8 +39,8 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 // 	char	p_desti[]= "2222222222";
 // 	size_t	ptr;
 
-// 	printf("Destino es: %s\n", p_desti);
+// 	printf("DEST: %s | ORG: %s\n", p_desti, p_orig);
 // 	ptr = ft_strlcpy(p_desti, p_orig, 6);
-// 	printf("Destino es: %s, %zu\n", p_desti, ptr);
+// 	printf("DEST: %s | ORG: %s %zu\n", p_desti, p_orig, ptr);
 // 	return (0);
 // }

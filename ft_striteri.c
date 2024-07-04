@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 18:19:45 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 16:43:02 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 20:16:02 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,12 +28,12 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 	return ;
 }
 
-// static void ft_print_char(unsigned int i, char c)
+// void ft_print_char(unsigned int i, char *c)
 // {
-//  	// printf("[%d]: %c\n",i, c);
-//  	printf("[%d]: %c\n",i, c - 32);
-//  	// printf("[%d]: %c\n",i, c + 1);
-//  	// printf("[%d]: %c\n",i, c + 3);
+//  	printf("[%d]: %c\n",i, *c);
+//  	printf("[%d]: %c\n",i, *c - 32);
+//  	printf("[%d]: %c\n",i, *c + 1);
+//  	printf("[%d]: %c\n",i, *c + 3);
 
 // }
 // int	main(void)

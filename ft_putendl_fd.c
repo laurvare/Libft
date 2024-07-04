@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/09 15:25:58 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 17:14:03 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 20:01:26 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,10 +20,6 @@ void	ft_putendl_fd(char *s, int fd)
 }
 
 /*
-#include <unistd.h>
-#include <stdio.h>
-#include <fcntl.h>
-
 int main(void)
 {
 	int fd;

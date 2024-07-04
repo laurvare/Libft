@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/12 15:04:38 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 17:38:13 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 19:21:17 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ void	*ft_calloc(size_t nmemb, size_t size)
 	}
 	return (str);
 }
+//#include <stdio.h>
+//#include <stdlib.h>
 
 // int	main(void)
 // {	

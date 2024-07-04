@@ -6,14 +6,14 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/07 19:45:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 15:38:49 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 19:18:48 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //A function that converts integers into strings using ASCII representations
 #include "libft.h"
 
-int	ft_counter_digits(int n)
+static int	ft_counter_digits(int n)
 {
 	int	count;
 

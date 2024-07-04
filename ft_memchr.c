@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/16 11:20:06 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 18:16:14 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 19:24:04 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,6 +26,10 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (NULL);
 }
+
+// 
+// #include <stdio.h>
+// #include <string.h>
 
 // int	main(void)
 // {

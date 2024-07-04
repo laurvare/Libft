@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/24 18:05:13 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/21 19:41:38 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 19:30:10 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ static char	**ft_save_word(char **dst, const char *s, char c)
 	return (dst);
 }
 
-int	ft_count_word(const char *s, int c)
+static int	ft_count_word(const char *s, int c)
 {
 	int	count;
 	int	i;
@@ -99,33 +99,33 @@ char	**ft_split(char const *s, char c)
 	return (dst);
 }
 
-int main()
-{
-	int i;
-	int j;
+// int main()
+// {
+// 	int i;
+// 	int j;
 
-	j = 0;
-	char frase[] = "       patatas huevos leche caca casa     cosa miel ";
-	i = ft_count_word(frase, ' ');
-	printf("valor de i: %d\n", i);
-    char **train = ft_split(frase, ' ');
-	while (j < i)
-	{
-		printf("Vagón %d: %s\n", j, train[j]);
-		j++;
-	}
-	j = 0;
-	while (*(train + j))
-	{
-		printf("Vagón %d: %s\n", j, *(train + j));
-		j++;
-	} 
-	j = 0;
-	while (train[j])
-	{
-		printf("Vagón %d: %s\n", j, train[j]);
-		j++;
-	} 
-	free (train);
-    return (0);
-}
+// 	j = 0;
+// 	char frase[] = "       patatas huevos leche caca casa     cosa miel ";
+// 	i = ft_count_word(frase, ' ');
+// 	printf("valor de i: %d\n", i);
+//     char **train = ft_split(frase, ' ');
+// 	while (j < i)
+// 	{
+// 		printf("Vagón %d: %s\n", j, train[j]);
+// 		j++;
+// 	}
+// 	j = 0;
+// 	while (*(train + j))
+// 	{
+// 		printf("Vagón %d: %s\n", j, *(train + j));
+// 		j++;
+// 	} 
+// 	j = 0;
+// 	while (train[j])
+// 	{
+// 		printf("Vagón %d: %s\n", j, train[j]);
+// 		j++;
+// 	} 
+// 	free (train);
+//     return (0);
+// }

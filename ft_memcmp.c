@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/20 16:48:05 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/15 17:53:43 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 19:29:07 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,6 +31,8 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	return (0);
 }
 
+// #include <stdio.h>
+// #include <string.h>
 // int	main(void)
 // {
 // 	unsigned char	s1[] = "Hola Mundo";

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: laura <laura@student.42.fr>                +#+  +:+       +#+        */
+/*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/10 13:01:30 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/07 16:59:55 by laura            ###   ########.fr       */
+/*   Updated: 2024/07/04 20:08:14 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@ char	*ft_strchr(const char *s, int c)
 // int	main(void)
 // {
 // 	char *s = "Laura";
-// 	int c = 0;
+// 	int c = 'a';
 
 // 	char	*str = ft_strchr(s, c);
 // 	printf("string : \n %s\n", s);
@@ -41,6 +41,6 @@ char	*ft_strchr(const char *s, int c)
 // 	char	*origin = strchr (s, c);
 // 	printf("string : \n %s\n", s);
 // 	printf("searched letter: \n %c\n", c);
-// 	printf("post search: \n %s\n", str);
+// 	printf("post search: \n %s\n", origin);
 // 	return (0);
 // }

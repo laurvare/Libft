@@ -16,21 +16,21 @@
 
 char	*ft_strdup(const char *s)
 {
-	char	*oil;
+	char	*s_dupl;
 	size_t	t;
 	size_t	i;
 
 	i = 0;
 	t = ft_strlen(s);
-	oil = malloc(t + 1);
-	if (oil == NULL)
+	s_dupl = malloc(t + 1);
+	if (s_dupl == NULL)
 		return (NULL);
 	while (i < t + 1)
 	{
-		oil[i] = s[i];
+		s_dupl[i] = s[i];
 		i++;
 	}
-	return (oil);
+	return (s_dupl);
 }
 
 // int main(void)

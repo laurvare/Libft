@@ -6,7 +6,7 @@
 /*   By: laurvare <laurvare@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/21 17:45:57 by laurvare          #+#    #+#             */
-/*   Updated: 2024/06/16 16:24:06 by laurvare         ###   ########.fr       */
+/*   Updated: 2024/07/04 21:57:55 by laurvare         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,15 +47,15 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (NULL);
 }*/
+// #include <bsd/string.h>
+// #include <stdio.h>
 
 // int	main(void)
 // {
-// 	char	str1[] = "vvida";
-// 	char	str2[] = "vida";
-// 	char	str3[] = "vvida";
-// 	char	str4[] = "vida";
+// 	char	*str1 = "Casa de laura varela";
+// 	char	*str2 = "varela";
 
-// 	printf("%s\n", ft_strnstr(str1, str2, 5));
-// 	printf("%s\n", strnstr(str3, str4, -1));
+// 	printf("%s\n", ft_strnstr(str1, str2, 20));
+// 	//printf("%s\n", strnstr(str1, str2, 12));
 // 	return (0);
 // }
